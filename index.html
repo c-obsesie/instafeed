@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="instafeed.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript">
+      var userFeed = new Instafeed({
+        get: "user",
+        userId: "40852435",
+        accessToken: "40852435.1677ed0.e221e4def51a454dbce6ed929301f4ce"
+      });
+      userFeed.run();
+    </script>
+    <title>InstagramFeed</title>
+  </head>
+  <body>
+    <h1>Instagram Feed Test</h1>
+    <div id="instafeed"></div>
+
+    <script src="instafeed.min.js"></script>
+  </body>
+</html>

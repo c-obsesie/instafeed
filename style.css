@@ -1,0 +1,15 @@
+#instafeed img {
+  width: 200px;
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#instafeed img:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+  -moz-opacity: 0.9;
+  -webkit-opacity: 0.9;
+}
